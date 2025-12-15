@@ -30,14 +30,14 @@ class Solution:
             else:
                 right = mid - 1
 
-        # Если элемент не найден, left указывает на позицию для вставки.
-
         solution = Solution()
         print(solution.searchInsert([1, 3, 5, 6], 5))  # 2
         print(solution.searchInsert([1, 3, 5, 6], 2))  # 1
         print(solution.searchInsert([1, 3, 5, 6], 7))  # 4
         print(solution.searchInsert([1, 3, 5, 6], 0))  # 0
 
+        # Если элемент не найден, left указывает на позицию для вставки.
+        
         return left
 
     # Как это работает:
