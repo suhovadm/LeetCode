@@ -84,7 +84,7 @@ class Solution:
                 head = head.next
 
         # Проверяем, собрали ли мы какие-либо значения.
-        # Если список список values пуст...
+        # Если список values пуст...
         if not values:
             return None # ... возвращаем None (пустой связанный список).
 
