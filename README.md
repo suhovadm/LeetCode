@@ -1,4 +1,4 @@
 # LeetCode
 Задачи с Литкода.
 
-(https://leetcode.com/suhovadm)
+[мой leetcode]leetcode.com/suhovadm
